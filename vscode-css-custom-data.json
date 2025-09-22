@@ -1,0 +1,7 @@
+{
+  "atDirectives": [
+    { "name": "@source" },
+    { "name": "@theme" },
+    { "name": "@custom-variant" }
+  ]
+}

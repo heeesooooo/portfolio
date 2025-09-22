@@ -107,7 +107,7 @@ export default function App() {
       <Header />
 
       {/* Hero */}
-      <section id="main" className="py-20 px-6 lg:px-8">
+  <section id="main" className="scroll-mt-20 py-6 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
@@ -115,8 +115,21 @@ export default function App() {
                 Frontend Developer
               </p>
               <h1 className="main-text mb-6">K I M J I Y O O N</h1>
-              <p className="text-[clamp(1.25rem,2.5vw,1.5rem)] text-muted-foreground leading-relaxed mb-8">
-                비즈니스 이해와 UX 감각으로 작동하는 인터페이스를 만듭니다. <br/>사용자 중심 경험과 성능 최적화에 집중합니다.
+              <p className="text-[clamp(1rem,2.5vw,1.2rem)] text-muted-foreground leading-relaxed mb-8">
+              <p className='mb-8'>
+                  사용자에게 실질적인 가치를 
+                  제공하는 제품을 만드는 것에 집중하고 있습니다.
+              </p>
+              <p className='mb-8'>
+                단순히 기능을 구현하는 것을 넘어, 성능 최적화와 접근성을 고려한 사용자 경험을 
+                설계하는 것에 관심이 많습니다. React와 TypeScript를 활용해 확장 가능하고 
+                유지보수가 용이한 코드를 작성하려 노력합니다.
+              </p>
+              <p className='mb-8'>
+                새로운 기술과 방법론을 학습하며, 더 나은 개발자가 되기 위해 지속적으로 
+                노력하고 있습니다. 특히 웹 표준과 접근성을 준수하면서도 사용자에게 
+                직관적인 인터페이스를 제공하는 것을 중요하게 생각합니다.
+              </p>
               </p>
               <div className="flex gap-4">
                 <Button
@@ -136,8 +149,8 @@ export default function App() {
                 </Button>
               </div>
             </div>
-            <section className="py-20">
-            <div className="my-20 hidden md:flex md:justify-end">
+            <section className="hidden py-20  md:flex md:justify-end">
+            <div className="my-20">
               <div className="my-20  w-80 h-80 rounded-lg overflow-hidden">
                 <ImageWithFallback
                   src="/profile.png"
@@ -152,7 +165,7 @@ export default function App() {
       </section>
 
       {/* Projects */}
-      <section id="projects" className="py-20 px-6 lg:px-8">
+  <section id="projects" className="scroll-mt-40 py-20 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
             <p className="text-muted-foreground uppercase tracking-wider text-sm mb-4">
@@ -169,7 +182,7 @@ export default function App() {
       </section>
 
       {/* Resume */}
-      <section id="experience" className="py-20 px-6 lg:px-8">
+  <section id="experience" className="scroll-mt-40 py-20 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-16">
             <p className="text-muted-foreground uppercase tracking-wider text-sm mb-4">Resume</p>
@@ -206,7 +219,7 @@ export default function App() {
       </section>
 
       {/* Skills */}
-      <section id="skills" className="py-20 px-6 lg:px-8">
+  <section id="skills" className="scroll-mt-40 py-20 px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div>
             <p className="text-muted-foreground uppercase tracking-wider text-sm mb-4">Skills</p>
@@ -245,7 +258,7 @@ export default function App() {
       </section>
 
       {/* Contact */}
-      <section id="contact" className="py-20 px-6 lg:px-8 bg-card/50">
+  <section id="contact" className="scroll-mt-40 py-20 px-6 lg:px-8 bg-card/50">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
