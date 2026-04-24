@@ -39,7 +39,7 @@ const projects: Project[] = [
   },
   {
     title: "HowRU (Cycle Tracker)",
-    description: "마지막 월경일과 주기 길이만 입력하면 월경·배란·황체·여포기를 자동 계산해 달력에 표시합니다. 오프라인에서도 기록이 유지되어, 컨디션 예측과 일정 계획을 더 똑똑하게 도와줍니다",
+    description: "마지막 월경일과 주기 길이만 입력하면 여성의 컨디션과 신체 리듬을 자동으로 분석해 달력에 표시합니다. 오프라인에서도 기록이 유지되어, 컨디션 예측과 일정 계획을 더 똑똑하게 도와줍니다.",
     role: "FE (React+TS+Vite, IndexedDB)",
     achievements: "사용자 입력 기반 주기 계산 로직 구현, 월경·배란·황체·여포기 자동 구간 분류, 달력 시각화",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "IndexedDB"],
@@ -275,10 +275,10 @@ export default function App() {
                 <div className="flex items-center gap-4">
                   <Mail className="w-5 h-5 text-muted-foreground" />
                   <a
-                    href="mailto:heeesooooo@gmail.com"
+                    href="mailto:hazelmo0109@gmail.com"
                     className="hover:text-foreground/80 transition-colors"
                   >
-                    heeesooooo@gmail.com
+                    hazelmo0109@gmail.com
                   </a>
                 </div>
                 <div className="flex gap-4">
